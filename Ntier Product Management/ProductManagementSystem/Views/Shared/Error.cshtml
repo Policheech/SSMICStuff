@@ -1,0 +1,22 @@
+﻿@model System.Web.Mvc.HandleErrorInfo
+
+@{
+    ViewBag.Title = "Error";
+}
+
+
+<h1 class="text-danger">Error.</h1>
+<h2 class="text-danger">An error occurred while processing your request.</h2>
+
+<label for="txtProductName">Action Name:</label>
+@Html.TextBoxFor(m => m.ActionName, new { @class = "form-control", @id = "txtProductName" })
+
+<label for="txtProductName">Controller Name :</label>
+@Html.TextBoxFor(m => m.ControllerName, new { @class = "form-control", @id = "txtProductName" })
+
+<label for="txtProductName">Exceptoin Message :</label>
+@Html.TextBoxFor(m => m.Exception.Message, new { @class = "form-control", @id = "txtProductName" })
+
+<label for="txtProductName">Inner Exceptoin :</label>
+@Html.TextBoxFor(m => m.ControllerName, new { @class = "form-control", @id = "txtProductName" })
+

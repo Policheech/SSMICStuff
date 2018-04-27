@@ -1,0 +1,112 @@
+﻿<!DOCTYPE html>
+
+<html>
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Excel Compare</title>
+    <link rel="stylesheet" href="CSS/stylesheet.css" />
+    <link rel="stylesheet" href="CSS/bootstrap.css" />
+    <script src="Scripts/jquery-3.3.1.js"></script>
+    <script type="text/javascript" src="Scripts/shim.min.js"></script>
+    <script lang="javascript" src="Scripts/xlsx.full.min.js"></script>
+    <script src="Scripts/FileSaver.min.js"></script>
+    <script src="Scripts/bootstrap.js"></script>
+    <script src="Scripts/bootbox.min.js"></script>
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-primary">
+        <a class="navbar-brand" href="index.html">Compare Monthly Data Tool</a>
+        <button class="navbar-toggler" name="nav" type="button" data-toggle="collapse" data-target="#navbarColor01" aria-controls="navbarColor01" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+    </nav>
+
+    <section>
+        <div class="spacer"></div>
+        <header>
+            <h1>Compare Excel Spreadsheets</h1>
+        </header>
+        <div class="spacer"></div>
+    </section>
+
+    <section>
+        <div class="row">
+            <div class="col"></div>
+            <form class="form-group col-md-4" id="myForm">
+                <fieldset>
+                    <legend>Select the Document Type</legend>
+                    <div class="form-check">
+                        <div class="custom-control custom-radio">
+                            <input type="radio" id="RadioBirth" name="optionRadio" class="custom-control-input" value="birth">
+                            <label class="custom-control-label" for="RadioBirth">Birth and Lead</label>
+                        </div>
+                        <div class="custom-control custom-radio">
+                            <input type="radio" id="RadioPrenatal" name="optionRadio" class="custom-control-input" value="prenatal">
+                            <label class="custom-control-label" for="RadioPrenatal">Prenatal and Lead</label>
+                        </div>
+                    </div>
+                </fieldset>
+                <div class="spacer"></div>
+                <fieldset>
+                    <legend id="legend" hidden>Upload Files</legend>
+                    <div class="form-control-file">
+                        <label for="PrevFile" id="Previous" hidden>Upload the previous months file</label>
+                        <input id="PrevFile" name="upload" type="file" accept=".xlsx" hidden required />
+                    </div>
+                    <br />
+                    <div class="form-control-file">
+                        <label for="CurrFile" id="Current" hidden>Upload the current months file</label>
+                        <input id="CurrFile" name="upload" type="file" accept=".xlsx" hidden required />
+                    </div>
+                </fieldset>
+                <div class="spacer"></div>
+                <fieldset>
+                    <div>
+                        <label for="filename" id="newFileName" hidden>Enter a new filename (optional)</label>
+                        <input type="text" placeholder="Filename" id="filename" hidden />
+                    </div>
+                    <br />
+                    <div>
+                        <button type="button" class="btn btn-primary" id="submit" name="submit" hidden>Download</button>
+                        <button type="reset" class="btn btn-danger" id="reset" name="reset" hidden>Clear</button>
+                    </div>
+                </fieldset>
+            </form>
+            <div class="col">
+            </div>
+        </div>
+        <div class="modal" id="myModal">
+            <div class="modal-dialog" role="document">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h5 class="modal-title"><strong>Error</strong></h5>
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                            <span aria-hidden="true">&times;</span>
+                        </button>
+                    </div>
+                    <div class="modal-body">
+                        <div class="row">
+                            <div class="col-md-12">
+                                <p id="modalText">Modal body text goes here.</p>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-md-12 offset-md-9">
+                                <button type="button" id="modalClose" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                            </div>
+                        </div>                        
+                    </div>
+                    
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <script src="Scripts/script.js"></script>
+    
+</body>
+
+</html>

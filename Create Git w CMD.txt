@@ -1,0 +1,7 @@
+1. Open bash from destination folder
+git init
+create/add .gitignore file
+git add *
+git commit
+git commit -m 'commit name'
+

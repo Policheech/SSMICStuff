@@ -1,0 +1,17 @@
+C:\CODE\Ntier tutorial\C#\NtierMvcUserInterface\bin\Debug\NtierMvcUserInterface.exe.config
+C:\CODE\Ntier tutorial\C#\NtierMvcUserInterface\bin\Debug\NtierMvcUserInterface.exe
+C:\CODE\Ntier tutorial\C#\NtierMvcUserInterface\bin\Debug\NtierMvcUserInterface.pdb
+C:\CODE\Ntier tutorial\C#\NtierMvcUserInterface\bin\Debug\NtierMvc.BusinessLogic.dll
+C:\CODE\Ntier tutorial\C#\NtierMvcUserInterface\bin\Debug\NtierMvc.Common.dll
+C:\CODE\Ntier tutorial\C#\NtierMvcUserInterface\bin\Debug\NtierMvc.Model.dll
+C:\CODE\Ntier tutorial\C#\NtierMvcUserInterface\bin\Debug\NtierMvc.DataAccess.dll
+C:\CODE\Ntier tutorial\C#\NtierMvcUserInterface\bin\Debug\NtierMvc.BusinessLogic.pdb
+C:\CODE\Ntier tutorial\C#\NtierMvcUserInterface\bin\Debug\NtierMvc.Common.pdb
+C:\CODE\Ntier tutorial\C#\NtierMvcUserInterface\bin\Debug\NtierMvc.Model.pdb
+C:\CODE\Ntier tutorial\C#\NtierMvcUserInterface\bin\Debug\NtierMvc.DataAccess.pdb
+C:\CODE\Ntier tutorial\C#\NtierMvcUserInterface\obj\Debug\NtierMvcUserInterface.csprojResolveAssemblyReference.cache
+C:\CODE\Ntier tutorial\C#\NtierMvcUserInterface\obj\Debug\NtierMvcUserInterface.EmployeesForm.resources
+C:\CODE\Ntier tutorial\C#\NtierMvcUserInterface\obj\Debug\NtierMvcUserInterface.Properties.Resources.resources
+C:\CODE\Ntier tutorial\C#\NtierMvcUserInterface\obj\Debug\NtierMvcUserInterface.csproj.GenerateResource.Cache
+C:\CODE\Ntier tutorial\C#\NtierMvcUserInterface\obj\Debug\NtierMvcUserInterface.exe
+C:\CODE\Ntier tutorial\C#\NtierMvcUserInterface\obj\Debug\NtierMvcUserInterface.pdb

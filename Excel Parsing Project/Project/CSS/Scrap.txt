@@ -1,0 +1,44 @@
+<div class="row">
+        <label class="col-md-4 text-md-right">Type of Document: </label>
+        <div class="col-md-8">
+            <label for="RadioBirth">Birth and Lead Document</label>
+            <input id="RadioBirth" type="radio"/>
+            <label for="RadioBirth">Prenatal and Lead Document</label>
+            <input id="RadioPrenatal" type="radio" />
+        </div>        
+    </div>
+	
+	<section>
+    <div class="container">
+        <form>
+            <div class="form-group row">
+                <label class="col-md-2 col-form-label">Type of Document: </label>
+                <div class="col-md-10">
+                    <label for="RadioBirth">Birth and Lead Document</label>
+                    <input id="RadioBirth" type="radio"/>
+                    <label for="RadioBirth">Prenatal and Lead Document</label>
+                    <input id="RadioPrenatal" type="radio"/>
+                </div>
+            </div>
+        </form>
+    </div>
+</section>
+
+
+<div class="row">
+                <div class="col-md-2"></div>
+                <div class="col-md-10">
+                    <h4><b>Select the Type of Document</b></h4>
+                </div>
+            </div>
+            <div class="row">
+
+                <div class="col-md-5"></div>
+                <div class="col-md-7">
+                    <label for="RadioBirth">Birth and Lead Document</label>
+                    <input id="RadioBirth" type="radio" name="option"/>
+                    <label for="RadioBirth">Prenatal and Lead Document</label>
+                    <input id="RadioPrenatal" type="radio" name="option"/>
+                </div>
+
+            </div>

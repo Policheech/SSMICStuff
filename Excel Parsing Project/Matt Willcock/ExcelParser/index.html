@@ -1,0 +1,60 @@
+<html>
+	<head>
+	<script src="Scripts/jquery-3.3.1.min.js" type="text/javascript"></script>  
+	<script src="Scripts/bootstrap.min.js" type="text/javascript"></script>  	
+	<script src="Scripts/datatables.min.js" type="text/javascript"></script>
+	<script src="Scripts/moment.min.js" type="text/javascript"></script>
+	
+	<script src="Scripts/DatatableExport/dataTables.buttons.min.js"></script>
+	<script src="Scripts/DatatableExport/buttons.flash.min.js"></script>
+	<script src="Scripts/DatatableExport/jszip.min.js"></script>
+	<script src="Scripts/DatatableExport/pdfmake.min.js"></script>
+	<script src="Scripts/DatatableExport/vfs_fonts.js"></script>
+	<script src="Scripts/DatatableExport/buttons.html5.min.js"></script>
+	<script src="Scripts/DatatableExport/buttons.print.min.js"></script>
+	
+	<script src="Scripts/xlsx.core.min.js"></script>  
+	<script src="Scripts/xls.core.min.js"></script> 
+	<script src="Scripts/date-eu.js"></script> 
+	
+	<script src="Scripts/siteScript.js" type="text/javascript"></script>
+	<link rel="stylesheet" type="text/css" href="CSS/bootstrap.css">
+	<link rel="stylesheet" type="text/css" href="CSS/site.css">
+	<link rel="stylesheet" type="text/css" href="CSS/datatables.min.css">
+	<link rel="shortcut icon" href="favicon.ico" type="image/x-icon"/>
+	<title>File Comparer</title>
+	</head>
+	<body>
+	<div class="row">
+		<div class="col-sm-6 col-sm-offset-3" style="text-align:center">
+		<h1>File Comparer</h1>
+		</div>		
+	</div>
+	<div class="row">
+		<div class="col-sm-4 col-sm-offset-2">
+			<h5>Older file:</h5> <input type="file" id="excelfile2" />  
+		</div>
+		<div class="col-sm-4 col-sm-offset-2">
+			<h5>Newer file:</h5>  <input type="file" id="excelfile" />  
+		</div>
+	</div>
+	<div class="row">
+		<div class="col-sm-4 col-sm-offset-4" style="text-align:center">
+			<input type="checkbox" name="uniqueValues" id="uniqueValues"></input>Retrieve only unique values
+		</div>
+	</div>
+	<br /><br />
+	<div class="row">
+		<div class="col-sm-6 col-sm-offset-3" style="text-align:center">
+			<input type="button" id="viewfile" class="btn btn-primary" value="Export To Table" onclick="ExportToTable()" />  
+		</div>
+   </div>
+   <hr>
+      <br />  
+      <br />  
+	  <div class="row">
+		<div class="col-sm-12" id="tableWrapper">			
+	    </div>
+	</div>
+	</body>
+</html>

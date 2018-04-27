@@ -1,0 +1,31 @@
+﻿@model IEnumerable<ProductManagementSystem.Models.ProductModel>
+
+@if (Model.Count() == 0)
+{
+    <tr><td>No records found</td></tr>
+}
+else
+{
+    foreach (var item in Model)
+    {
+        <tr>
+            <td>@Html.DisplayFor(m => item.Name)</td>
+            <td>
+                <a>
+                    <span class="glyphicon glyphicon-th-list" id="details-model" data-id="@item.ProductModelId"></span>
+                </a>
+            </td>
+            <td>
+                <a>
+                    <span class="glyphicon glyphicon-edit" id="edit-model" data-id="@item.ProductModelId"></span>
+                </a>
+            </td>
+            <td>
+                <a>
+                    <span class="glyphicon glyphicon-remove" id="delete-model" data-id="@item.ProductModelId"></span>
+                </a>
+            </td>
+        </tr>
+    }
+}
+

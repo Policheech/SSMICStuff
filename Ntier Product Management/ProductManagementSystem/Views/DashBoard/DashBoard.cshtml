@@ -1,0 +1,22 @@
+﻿@{
+    ViewBag.Title = "DashBoard";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+<div class="row">
+    <div class="col-sm-9 blog">
+        <div class="bg-primary form-control-static textalign-center">List of Products </div>
+        <img src="~/Content/images/download.png" />
+        <hr>
+        <div class="row">
+            <div class="col-sm-6">
+                @Html.Partial("HighPriceProducts")
+            </div>
+            <div class="col-sm-6">
+                @Html.Partial("LowPriceProducts")
+            </div>
+        </div>
+    </div>
+    <div class="col-sm-3 sidebar">
+        @Html.Partial("LatestProducts")
+    </div>
+</div>

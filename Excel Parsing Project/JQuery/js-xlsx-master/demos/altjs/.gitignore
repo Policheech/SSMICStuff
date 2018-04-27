@@ -1,0 +1,8 @@
+sheetjs.*
+SheetJSSwift
+duk*
+*.class
+*.jar
+rhino
+xlsx.*.js
+payload.js

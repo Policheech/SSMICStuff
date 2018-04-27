@@ -1,0 +1,31 @@
+/*.title {    
+    width: 630px;
+    height: 390px;
+    text-align: center;    
+    line-height: 390px;
+}*/
+
+h1 {
+    text-align: center;
+}
+
+.spacer {
+    margin: 0;
+    padding: 0;
+    height: 50px;
+}
+
+#reset {
+    margin-left: 40px;
+}
+
+.modal-header {
+    background-color:#F3969A;
+    
+    
+}
+
+.modal-title {
+    font-size: 30px;
+    
+}
